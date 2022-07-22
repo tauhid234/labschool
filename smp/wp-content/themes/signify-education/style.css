@@ -1,0 +1,337 @@
+/*
+Theme Name: Signify Education
+Theme URI: https://wenthemes.com/item/wordpress-themes/signify-education/
+Author: WEN Themes
+Author URI: https://wenthemes.com/
+Description: Signify Education is a clean, minimal, and responsive, free Education WordPress theme. It is a child theme of Signify, a popular responsive multipurpose WordPress theme. Signify Education includes features and functionalities that fit all kinds of educational institutions and businesses of the same kind. For instance, High Schools, Colleges, Universities, Online Classes, Small Businesses, and many other education-related sites. Signify Education is clean, simple, visually aesthetic, and includes well-organized site layouts. This theme has awesome features and sections like Flexible Header, Featured Content, Header Top Options, Portfolio, Testimonials, Services, Hero Content, Featured Slider, and more. You can use sections like Hero Content and Featured Content to display your most impressive and popular posts. There are also custom widgets available for you to display your most important services and feature your posts. Moreover, you can enable the Header Top Option to display your business information swiftly. With all these fully customizable features, Signify Education fulfills all the requirements of a strong and elegant Education website. This theme has been built with the most basic and crucial aspects needed for educational sites. From clean design to advanced functionalities, Signify Education has it all to take your education site to next level. Official Support Forum: https://themepalace.com/support-forum/ Full Demo: https://wenthemes.com/theme-demos/?demo=signify-education
+Version: 2.0.2
+Requires at least: 5.6
+Tested up to: 5.9
+Requires PHP: 5.6
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: one-column, two-columns, right-sidebar, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, education, blog, portfolio
+Text Domain: signify-education
+Template: signify
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.site-title,
+.site-description {
+    letter-spacing: .1em;
+}
+
+.header-style-two .site-header .site-header-main .wrapper .site-description {
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+.header-style-two .site-header .site-header-main .wrapper {
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+/* Link Hover Color */
+p.stars:hover a:before,
+p.stars:focus a:before,
+.star-rating span:before,
+#menu-toggle:hover,
+#menu-toggle:focus,
+#feature-slider-section .owl-nav button:hover:before,
+#feature-slider-section .owl-nav button:focus:before,
+#scrollup:hover,
+#scrollup:focus,
+button[type="submit"]:hover,
+button[type="submit"]:focus,
+nav.navigation.posts-navigation .nav-links a:hover,
+nav.navigation.posts-navigation .nav-links a:focus,
+#menu-toggle:hover .menu-label,
+#menu-toggle:focus .menu-label,
+p.stars.selected a.active:before,
+p.stars.selected a:not(.active):before,
+p.stars.selected a.active~a:before,
+p.stars a:hover~a:before,
+p.stars a:focus~a:before,
+.menu-inside-wrapper .main-navigation>.nav-menu>.current_page_item>a,
+.navigation-default .menu-inside-wrapper .main-navigation>.nav-menu .current_page_item>a,
+.menu-inside-wrapper .top-navigation>.nav-menu>.current_page_item>a,
+#reviews .comment-respond .comment-form-rating .stars span a.active:before,
+.page-links .current,
+#site-header-cart-wrapper a.cart-contents .count,
+#reviews .comment-respond .comment-form-rating .stars.selected span a:not(.active):before,
+.contact-details li .fa,
+.section-subtitle,
+.feature-slider-wrapper .entry-container .entry-title span:hover,
+.feature-slider-wrapper .entry-container .entry-title span:focus {
+    color: #008ec2;
+}
+
+a:hover,
+a:focus,
+.site-title a:hover,
+.site-title a:focus,
+.site-info a:hover,
+.site-info a:focus,
+.post-title:hover,
+.post-title:focus,
+.play-button-text:hover,
+.play-button-text:focus,
+.woocommerce .woocommerce-breadcrumb a:hover,
+.woocommerce .woocommerce-breadcrumb a:focus,
+.has-background-image .woocommerce-loop-product__title:hover,
+.has-background-image .woocommerce-loop-product__title:focus,
+.has-background-image .entry-container .entry-meta a:hover,
+.has-background-image .entry-container .entry-meta a:focus,
+.has-background-image .entry-container .entry-title a:hover,
+.has-background-image .entry-container .entry-title a:focus,
+.single footer .entry-meta a:hover,
+.single footer .entry-meta a:focus,
+#site-footer-navigation li a:hover,
+#site-footer-navigation li a:focus,
+#social-footer-navigation li a:hover,
+#social-footer-navigation li a:focus,
+.has-background-image .entry-title a:hover,
+.has-background-image .entry-title a:focus,
+.has-background-image .entry-meta a:hover,
+.has-background-image .entry-meta a:focus,
+.wp-playlist-tracks .wp-playlist-caption:hover,
+.wp-playlist-tracks .wp-playlist-caption:focus,
+.signify-mejs-container.mejs-container button:hover,
+.signify-mejs-container.mejs-container button:focus,
+#site-header-cart-wrapper a.cart-contents:hover,
+#site-header-cart-wrapper a.cart-contents:focus,
+.woocommerce-loop-product__title:hover,
+.woocommerce-loop-product__title:focus,
+.events-content-wrapper .entry-meta a:hover,
+.events-content-wrapper .entry-meta a:focus,
+.widget_recent_entries li a:hover,
+.widget_recent_entries li a:focus,
+.menu-inside-wrapper .main-navigation .nav-menu ul>li>a:hover,
+.menu-inside-wrapper .main-navigation .nav-menu ul>li>a:focus,
+.menu-inside-wrapper .top-navigation .nav-menu ul>li>a:hover,
+.menu-inside-wrapper .top-navigation .nav-menu ul>li>a:focus,
+button.dropdown-toggle:hover,
+button.dropdown-toggle:focus,
+.site-header-menu .menu-inside-wrapper .nav-menu li button:hover,
+.site-header-menu .menu-inside-wrapper .nav-menu li button:focus,
+.portfolio-section .entry-title a:hover,
+.portfolio-section .entry-title a:focus,
+.social-search-wrapper .menu-social-container li a:hover,
+.social-search-wrapper .menu-social-container li a:focus,
+button#wp-custom-header-video-button:hover,
+button#wp-custom-header-video-button:focus,
+.widget .ui-state-default a:hover,
+.widget .ui-state-default a:focus,
+.widget .ui-widget-content .ui-state-default a:hover,
+.widget .ui-widget-content .ui-state-default a:focus,
+.widget .ui-widget-header .ui-state-default a:hover,
+.widget .ui-widget-header .ui-state-default a:focus,
+body .site-header .site-header-main .site-header-menu .menu-inside-wrapper .main-navigation .nav-menu ul .current_page_item>a:hover,
+body .site-header .site-header-main .site-header-menu .menu-inside-wrapper .main-navigation .nav-menu ul .current_page_item>a:focus,
+.tag-cloud-link:hover,
+.tag-cloud-link:focus,
+.nav-title:hover,
+.nav-title:focus,
+.menu-social-container a:hover,
+.menu-social-container a:focus,
+.slider-content-wrapper .entry-container .entry-container-wrap .entry-title a:hover,
+.slider-content-wrapper .entry-container .entry-container-wrap .entry-title a:focus,
+.sidebar .widget-wrap .more-link:hover,
+.sidebar .widget-wrap .more-link:focus,
+.featured-content-section .hentry .more-link:hover,
+.featured-content-section .hentry .more-link:focus,
+#portfolio-content-section .more-link:hover,
+#portfolio-content-section .more-link:focus,
+.author a:hover,
+.author a:focus,
+.entry-title a:hover,
+.entry-title a:focus,
+.site-footer td#prev a:hover,
+.site-footer td#prev a:focus,
+.site-footer td#next a:hover,
+.site-footer td#next a:focus,
+.comment-reply-link:hover,
+.comment-reply-link:focus,
+.portfolio-content-wrapper .filter-button-group button:hover,
+.portfolio-content-wrapper .filter-button-group button:focus,
+.author-section-title:hover,
+.author-section-title:focus,
+.comment-permalink:hover,
+.comment-permalink:focus,
+.comment-edit-link:hover,
+.comment-edit-link:focus,
+.portfolio-content-wrapper .filter-button-group button.is-checked:hover,
+.portfolio-content-wrapper .filter-button-group button.is-checked:focus,
+.nav-subtitle:hover,
+.nav-subtitle:focus,
+.entry-meta a:hover,
+.entry-meta a:focus,
+.scroll-down:hover,
+.scroll-down:focus,
+.testimonials-content-wrapper.section.testimonial-wrapper .entry-title a:hover,
+.testimonials-content-wrapper.section.testimonial-wrapper .entry-title a:focus,
+#site-generator .menu-social-container a:hover,
+#site-generator .menu-social-container a:focus,
+.widget-wrap li a:hover,
+.widget-wrap li a:focus,
+.main-navigation ul:not(.sub-menu)>li>a:hover,
+.main-navigation ul:not(.sub-menu)>li>a:focus,
+.top-navigation ul:not(.sub-menu)>li>a:hover,
+.top-navigation ul:not(.sub-menu)>li>a:focus,
+#site-header-cart-wrapper a.cart-contents:hover,
+#site-header-cart-wrapper a.cart-contents:focus,
+#testimonial-content-section .owl-prev:hover,
+#testimonial-content-section .owl-prev:focus,
+#testimonial-content-section .owl-next:hover,
+#testimonial-content-section .owl-next:focus,
+#signify-logo-slider-section .owl-prev:hover,
+#signify-logo-slider-section .owl-prev:focus,
+#signify-logo-slider-section .owl-next:hover,
+#signify-logo-slider-section .owl-next:focus,
+.navigation.pagination a:hover,
+.navigation.pagination a:focus,
+#stats-section.has-background-image .hentry .more-link:hover,
+#stats-section.has-background-image .hentry .more-link:focus,
+.archive-content-wrap .section-content-wrapper.layout-one .entry-container>.entry-meta .posted-on a:hover,
+.archive-content-wrap .section-content-wrapper.layout-one .entry-container>.entry-meta .posted-on a:focus,
+.playlist-content-wrapper .signify-mejs-container.mejs-container button:hover,
+.playlist-content-wrapper .signify-mejs-container.mejs-container button:focus,
+button.menu-toggle:hover,
+button.menu-toggle:focus,
+.portfolio-section .entry-meta a:hover,
+.portfolio-section .entry-meta a:focus,
+ul.page-numbers .page-numbers:hover,
+ul.page-numbers .page-numbers:focus,
+.signify-logo-slider-section .section-content-wrapper .entry-title a span:hover,
+.signify-logo-slider-section .section-content-wrapper .entry-title a span:focus,
+#search-top-container .search-submit:hover,
+#search-top-container .search-submit:focus,
+.has-background-image.events-section.style-two .hentry .entry-meta a:hover,
+.has-background-image.events-section.style-two .hentry .entry-meta a:focus,
+#stats-section .entry-title a,
+#featured-content-section .entry-header .entry-meta>span a,
+.product .woocommerce-Price-amount {
+    color: #008ec2;
+}
+
+#signify-logo-slider-section .owl-dots .owl-dot:hover,
+#signify-logo-slider-section .owl-dots .owl-dot:focus {
+    background-color: #008ec2;
+}
+
+#signify-logo-slider-section .owl-dots .owl-dot.active,
+#feature-slider-section .owl-dots button.owl-dot.active span,
+.owl-carousel .owl-dots button.owl-dot.active span {
+    border-color: #008ec2;
+}
+
+@media screen and (min-width: 75em) {
+    .navigation-classic .menu-inside-wrapper .main-navigation>.nav-menu>.current_page_item>a:before,
+    .navigation-classic .menu-inside-wrapper .top-navigation>.nav-menu>.current_page_item>a:before {
+        border-color: #008ec2;
+    }
+}
+
+/* Button Background Color */
+.more-link,
+.button,
+.section .filter-button-group .button.is-checked:before,
+.pagination .page-numbers.current,
+.entry-content button,
+.entry-summary button,
+button,
+#scrollup,
+.slider-content-wrapper .controllers .cycle-prev,
+.slider-content-wrapper .controllers .cycle-next,
+input[type="submit"],
+button[type="submit"],
+.scrollup a,
+.sticky-post,
+#team-dots li.active:after,
+#team-content-section .team-content-wrapper.owl-carousel .owl-nav button:hover,
+#team-content-section .team-content-wrapper.owl-carousel .owl-nav button:focus,
+.wp-block-button__link,
+#infinite-handle>span>button,
+.menu-inside-wrapper #site-header-cart-wrappe li>a,
+.contact-section .entry-container ul.contact-details li .fa,
+nav.navigation.posts-navigation .nav-links a,
+.page-numbers li .page-numbers.current,
+.archive-content-wrap .pagination .page-numbers.current,
+.cart-collaterals .shop_table.shop_table_responsive .cart-subtotal,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+.sticky-label,
+.wpcf7 input[type=submit]:hover,
+.wpcf7 input[type=submit]:focus,
+.archive-posts-wrapper .more-link:hover,
+.archive-posts-wrapper .more-link:focus,
+.archive-posts-wrapper .button:hover,
+.archive-posts-wrapper .button:focus,
+.archive-posts-wrapper button :hover,
+.archive-posts-wrapper button :focus,
+.comments-area input[type=submit]:hover,
+.comments-area input[type=submit]:focus,
+#service-section .more-link:hover,
+#service-section .hentry .more-link:focus,
+#service-section .hentry .button:hover,
+#service-section .hentry .button:focus,
+#service-section .hentry button:hover,
+#service-section .hentry button:focus,
+#featured-content-section .section-content-wrapper .hentry .more-link:hover,
+#featured-content-section .section-content-wrapper .hentry .more-link:focus,
+#featured-content-section .section-content-wrapper .hentry .button:hover,
+#featured-content-section .section-content-wrapper .hentry .button:focus,
+#featured-content-section .section-content-wrapper .hentry button:hover,
+#featured-content-section .section-content-wrapper .hentry button:focus,
+#stats-section .hentry .more-link:hover,
+#stats-section .hentry .more-link:focus,
+.woocommerce .products .product-container .button:hover,
+.woocommerce .products .product-container .button:focus,
+.woocommerce .products .product-container .added_to_cart:hover,
+.woocommerce .products .product-container .added_to_cart:focus,
+#site-generator #social-footer-navigation a:focus:before,
+#site-generator #social-footer-navigation a:hover:before,
+#feature-slider-section .owl-dots button.owl-dot span,
+#portfolio-content-section .hentry .more-link:hover,
+#portfolio-content-section .hentry .more-link:focus,
+.timeline-section .content-wrapper:before,
+.timeline-section .hentry .hentry-inner:before {
+    background-color: #008ec2;
+}
+
+#content.site-content .wrapper #primary.content-area #main.site-main .hentry .entry-content #rpt_pricr.rpt_style_basic .rpt_plan.rpt_recommended_plan .rpt_foot {
+    background-color: #008ec2 !important;
+}
+
+.woocommerce .products .product-container .button,
+.woocommerce .products .product-container .added_to_cart,
+.wpcf7 input[type=submit],
+.comments-area input[type=submit],
+.comments-area input[type=submit]:hover,
+.comments-area input[type=submit]:focus,
+#service-section .hentry .more-link,
+#service-section .hentry .button,
+#service-section .hentry button,
+#featured-content-section .section-content-wrapper .hentry .more-link,
+#featured-content-section .section-content-wrapper .hentry .button,
+#featured-content-section .section-content-wrapper .hentry button,
+.archive-posts-wrapper .hentry .more-link,
+.archive-posts-wrapper .hentry .button,
+.archive-posts-wrapper .hentry button {
+    border-color: #008ec2;
+}
+
+.stats-section .entry-summary .more-link:hover,
+.stats-section .entry-summary .more-link:focus,
+.stats-section .entry-content .more-link:hover,
+.stats-section .entry-content .more-link:focus {
+    color: #008ec2;
+}
+
+
+/* Page Post Content Link Color */
+.singular-content-wrap .entry-content a:not(.more-link):not(.button):not(button):not(.wp-block-button__link):not(.wp-playlist-caption),
+.singular-content-wrap .entry-summary a:not(.more-link):not(.button):not(button):not(.wp-block-button__link):not(.wp-playlist-caption) {
+    color: #008ec2;
+}

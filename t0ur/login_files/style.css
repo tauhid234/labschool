@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Interstate-Light;
+    src: url("https://online.citi.com/CBOL/common/ui/ddl/theme/latest/styles/fonts/interstate/Interstate-Light.woff");
+ }
+ @font-face {
+    font-family: Interstate-Regular;
+    src: url("https://online.citi.com/CBOL/common/ui/ddl/theme/latest/styles/fonts/interstate/Interstate-Regular.woff");
+ }
+
+ /* .livechat-cards{
+ } 
+
+.right-sidebar{
+    background: #003378 !important;
+}
+*/
+
+.chat-window{
+    width: 380px !important;
+    height:400px !important;
+}
+.chat-window img{
+    width:100% !important;
+    height: 400px !important;
+}
+.livechat-card{
+    /* width:340px !important; */
+    /* height:100px !important; */
+    background: #fff !important;
+    color:#424242 !important;
+    padding-top:20px !important;
+    padding-left:20px !important;
+    padding-right:20px !important;
+    font-family: Interstate_Light !important;
+}
+.carousel-nav{
+    clear: both !important;
+}
+.carousel-nav ul{
+    list-style: none !important;
+    width: 145px !important;
+    margin: 0 auto !important;
+    padding-bottom: 30px !important;
+}
+.carousel-nav ul li {
+    border: 1px solid #056DAE !important;
+    border-radius: 50% !important;
+    width: 7px !important;
+    height: 7px !important;
+    float: left !important;
+    margin: 5px !important;
+    cursor: pointer !important;
+}
+.carousel-nav ul li.prev, .carousel-nav ul li.next{
+    border:none!important;
+    font-family: Interstate-Regular !important;
+    font-size: 12px !important;
+    margin:5px !important;
+    margin-top: 0px !important;
+    /* margin-right: 15px !important; */
+    color: #056DAE !important;
+}
+.carousel-nav ul li.active{
+    background: #056DAE !important;
+}
+.livechat-card.dark,.carousel-nav.dark{
+    background:#003378 !important;
+    color:#fff !important;
+}
+.livechat-card.dark .title,.livechat-card.dark .disc,.carousel-nav.dark li.active,.carousel-nav.dark .prev, .carousel-nav.dark .next{
+    color:#fff !important;
+}
+.livechat-cards .card-header{
+    background: #003378 !important;
+    color: #fff !important;
+    padding: 10px !important;
+    min-height: 30px !important;
+    padding-bottom: 0px !important;
+    padding-left: 20px !important;
+}
+.livechat-cards .card-header .title{
+    float: left !important;
+    font-size: 17px !important;
+}
+.livechat-cards .card-header .actions{
+    float: right !important;
+}
+.livechat-cards .card-header .actions a{
+    margin-left: 10px !important;
+    color:#fff !important;
+}
+.carousel-nav.dark li.active{
+    background: #fff !important;
+}
+.carousel-nav.dark li{
+    border:1px solid #fff !important;
+}
+.carousel-nav.dark .prev, .carousel-nav.dark .next{
+    border:none !important;
+}
+.livechat-card .first{
+    width:70% !important;
+    float: left !important;
+}
+.livechat-card .second{
+    width:30% !important;
+    float: right !important;
+}
+.livechat-card .title{
+    color:#056DAE !important;
+    font-weight: 100 !important;
+    margin-bottom: 10px !important;
+}
+.livechat-card .disc{
+    font-size: 11px !important;
+    color: #424242 !important;
+    text-align: left !important;
+    line-height: 18px !important;
+    margin-right: 5px !important;
+
+}
+.livechat-card .disc .appLink{
+    font-size: 12px !important;
+    margin-top: 5px !important;
+    margin-bottom:5px !important;
+    color:#056DAE !important; 
+    cursor: pointer !important;
+}
+.livechat-card .disc .appLink:-webkit-any-link{
+    color:#056DAE !important; 
+}
+.livechat-card.blue{
+    background: blue !important;
+}
+.d-none{
+    display:none;
+}
+
+.fa-angle-left{
+    font-size:14px;
+    padding-top:2px;
+}
+
+/** placeholder text should not be italics **/
+.lpc_desktop.lpc_composer__text-area::placeholder {
+    font-style: normal !important;
+    color: #000 !important;
+    opacity: 1 !important;
+}

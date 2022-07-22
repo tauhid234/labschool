@@ -1,0 +1,129 @@
+/*
+Theme Name: Signify Education
+Description: Used to style the TinyMCE editor.
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Padding/Margin
+ * 5.0 - Forms
+ * 6.0 - Navigation
+ *   6.1 - Links
+ * 7.0 - Alignments
+ * 8.0 - Posts and pages
+ * 9.0 - Media
+ * 10.0 - Captions
+ * 11.0 - Galleries
+ * 12.0 - Media Queries
+ *    12.1 - >= 1024px
+ *	  12.2 - >= 1200px
+ *	  12.3 - >= 1366px
+ *	  12.4 - >= 1600px
+ * 14.0 - RTL
+ * 15.0 - Colors
+ */
+
+.mejs-time-current,
+.mejs-time-handle-content {
+    background : #008ec2;
+}
+
+.is-style-outline .wp-block-button__link,
+.is-style-outline .more-link,
+.is-style-outline .button {
+    border: 1px dashed #008ec2;
+    background-color: transparent;
+    color: #000;
+}
+
+.is-style-fill.wp-block-button .wp-block-button__link,
+.is-style-fill.wp-block-button .more-link,
+.is-style-fill.wp-block-button .button {
+    background-color: #008ec2;
+    color: #fff;
+}
+
+
+.is-style-fill.wp-block-button .wp-block-button__link:hover,
+.is-style-fill.wp-block-button .wp-block-button__link:focus,
+.is-style-fill.wp-block-button .more-link:hover,
+.is-style-fill.wp-block-button .more-link:focus,
+.is-style-fill.wp-block-button .button:hover,
+.is-style-fill.wp-block-button .button:focus {
+    background-color: #fff;
+    border-color: #e6e6e6;
+    color: #000;
+}
+
+.more-link,
+.button,
+.wp-block-button__link {
+    background-color: #008ec2;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button:hover,
+.button:focus,
+.more-link:hover,
+.more-link:focus,
+.wp-block-button__link:hover,
+.wp-block-button__link:focus {
+    background-color: #fff;
+    color: #000;
+    border-color: #e6e6e6;
+}
+
+/* Link Hover Color */
+a:focus,
+a:hover,
+.mejs-container button:hover,
+.mejs-container button:focus {
+    color: #008ec2;
+}
+
+mark,
+.signify-mejs-container.mejs-container .mejs-controls .mejs-time-rail .mejs-time-current,
+.signify-mejs-container.mejs-container .mejs-controls .mejs-volume-button .mejs-volume-current,
+.signify-mejs-container.mejs-container .mejs-controls .mejs-volume-button .mejs-volume-handle,
+.signify-mejs-container.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    background-color: #f9a926;
+}
+
+/* Button Background Color */
+.page-links a,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+    background-color: #008ec2;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float {
+    background-color: #008ec2;
+}
+
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button:hover,
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button:focus,
+.editor-styles-wrapper .mce-content-body a:not(.more-link):not(.button):not(button):not(.wp-playlist-caption),
+.mce-container-body .mce-content-body a:not(.more-link):not(.button):not(button):not(.wp-playlist-caption),
+a:not(.more-link):not(.button):not(button):not(.wp-playlist-caption),
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption:hover,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption:focus,
+.wp-playlist-tracks .wp-playlist-item:hover,
+.wp-playlist-tracks .wp-playlist-item:focus,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption,
+.wp-playlist-playing .wp-playlist-item-length {
+    color: #008ec2;
+}

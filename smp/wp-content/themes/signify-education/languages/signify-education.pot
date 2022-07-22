@@ -1,0 +1,56 @@
+# Copyright (C) 2015-2022 WEN Themes
+# This file is distributed under the GNU General Public License, version 3 (GPLv3).
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Signify Education\n"
+"Report-Msgid-Bugs-To: hhttps://wenthemes.com/contact/\n"
+"POT-Creation-Date: 2022-05-20 01:49-0700\n"
+"PO-Revision-Date: 2016-12-07 01:05-0500\n"
+"Last-Translator: Catch Themes <info@catchthemes.com>\n"
+"Language-Team: WEN THemes <info@wenthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: \n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../functions.php:56
+msgid "Header Top Menu"
+msgstr ""
+
+#: ../functions.php:57
+msgid "Social Menu at Top"
+msgstr ""
+
+#: ../functions.php:102
+msgid "Header Top Options"
+msgstr ""
+
+#: ../functions.php:108
+msgid "Enable Header Top"
+msgstr ""
+
+#: ../header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: ../template-parts/header/site-top-bar.php:19
+msgid "Top Bar"
+msgstr ""
+
+#: ../template-parts/header/social-top.php:14
+msgid "Social Links Menu"
+msgstr ""
+
+#: ../template-parts/navigation/navigation-header-top.php:10
+msgid "Top Menu"
+msgstr ""

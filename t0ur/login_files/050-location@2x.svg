@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>01-direction/050-location</title>
+    <g id="Redlines" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header-/-desktop-/-Partners-/-F5-ATT-Access" transform="translate(-1352.000000, -27.000000)">
+            <g id="nav-header-/-pre-login-/-default-1440">
+                <g id="nav-header-/-pre-login-/-default">
+                    <g id="header-/-components-/-Desktop-/-ATM" transform="translate(1324.000000, 27.000000)">
+                        <g id="01-direction/050-location" transform="translate(28.000000, 0.000000)">
+                            <rect id="Background" x="0" y="0" width="26" height="26"></rect>
+                            <path d="M13,1 C17.8746741,1 22,4.92164995 22,9.6710003 C22,12.8371876 19.125711,17.8516382 13.3858873,24.8179481 C13.1858874,25.060684 12.8141126,25.060684 12.6141127,24.8179481 C6.87428896,17.8516382 4,12.8371876 4,9.6710003 C4,4.92164995 8.12532592,1 13,1 Z M13,2 C8.66660392,2 5,5.48557602 5,9.6710003 C5,12.4554419 7.6639476,17.1677197 13,23.7113019 C18.3360524,17.1677197 21,12.4554419 21,9.6710003 C21,5.48557602 17.3333961,2 13,2 Z M13,5 C15.7614237,5 18,7.23857625 18,10 C18,12.7614237 15.7614237,15 13,15 C10.2385763,15 8,12.7614237 8,10 C8,7.23857625 10.2385763,5 13,5 Z M13,6 C10.790861,6 9,7.790861 9,10 C9,12.209139 10.790861,14 13,14 C15.209139,14 17,12.209139 17,10 C17,7.790861 15.209139,6 13,6 Z" id="Combined-Shape" fill="#666666"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

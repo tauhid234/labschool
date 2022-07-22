@@ -1,0 +1,16 @@
+/* ---------Customizer--------- */
+.control-section-elearning-education h3.accordion-section-title {
+	background: #59d3b1 !important;
+	color: #fff !important;
+    padding: 20px 10px;
+}
+a.button.button-secondary.alignright {
+    color: #fff;
+    box-shadow: none;
+    font-weight: bold;
+    padding: 0 10px;
+    background: transparent;
+    height: 31px;
+    background: #192640;
+    border: none;
+}
