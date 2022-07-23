@@ -108,8 +108,7 @@
 						<div class="card-body">
 							
 
-			<?= $alert; ?>
-			<br>
+			
 			<div class="row">
 				<div class="col-12" style="margin-top: 0px;">
 					<div class="card">
@@ -124,6 +123,8 @@
 				</div>
 			</div>
 
+			<br>
+			<?= $alert; ?>
 			<form class="row g-3" style="margin-top: 60px;" method="POST">
 					<div class="col-md-12 mb-4">
 						<label for="input_name" class="form-label">Nama Lengkap <span style="color: red;">*</span></label>
