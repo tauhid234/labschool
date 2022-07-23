@@ -198,10 +198,10 @@
 								<a class="dropdown-item" href="https://docs.google.com/forms/d/1IaRIRBeLbGv_nYqWTYuBJL1DhcfFS-U13J_1sJn1LYs/edit">Tenaga Kependidikan </a>
 							</div>
 						</li> -->
-						<li class="nav-item"><a class="nav-link" href="komplain/komplain.php">Feedback</a></li>
+						<li class="nav-item"><a class="nav-link" href="../view/feedback.php">Feedback</a></li>
 						<li class="nav-item"><a class="nav-link" href="https://labschoolcirendeu.sch.id/karir/">Karir</a></li>
 						<li class="nav-item"><a class="nav-link" href="https://perpustakaan.labschoolcirendeu.sch.id/">E-Library</a></li>
-						<li class="nav-item"><a class="nav-link" href="contact_page">Kontak</a></li>
+						<li class="nav-item"><a class="nav-link" href="../view/contact_page.php">Kontak</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
                         <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Login</span></a></li>

@@ -17,7 +17,7 @@
 							</ul><!-- end links -->
 						</div>
                         <div>
-                            <img src="http://localhost/labschool/karir/img/onelabs-ypunj.png" alt="" style="height:60px; width: 70px;" />
+                            <img src="http://localhost/labschool/karir/img/onelabs-ypunj.png" alt="" style="height:60px;" />
                         </div>
 						<p align="justify" style="margin-top:20px;">
 							<?php
