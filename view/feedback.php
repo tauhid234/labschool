@@ -1,4 +1,8 @@
 <?php
+	include '../template/header.php';
+?>
+
+<?php
 
 
 	include "../model/FeedbackModel.php";
@@ -44,9 +48,7 @@
 	}
 ?>
 
-	<?php
-	include '../template/header.php';
-	?>
+	
 
 	<?php
 	include '../template/looader.php';
